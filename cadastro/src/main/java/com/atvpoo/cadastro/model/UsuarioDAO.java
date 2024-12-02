@@ -22,7 +22,7 @@ public class UsuarioDAO {
 	JdbcTemplate jdbc;
 	
 	@PostConstruct
-	private void initialize() {
+	private void Initialize() {
 		jdbc = new JdbcTemplate(dataSource);
 	}
 
